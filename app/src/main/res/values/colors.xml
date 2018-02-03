@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleColor">#000000</color>
+    <color name="backgroundTint">#FFEBEE</color>
+    <color name="textColor_name">#FFEBEE</color>
+    <color name="textColor_hint">#FFEBEE</color>
+    <color name="textColor_quizText">#FFEBEE</color>
+</resources>

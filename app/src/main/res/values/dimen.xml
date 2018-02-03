@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop_title">60dp</dimen>
+    <dimen name="textSize">45sp</dimen>
+    <dimen name="editText_name_margin">25dp</dimen>
+    <dimen name="editText_size">25sp</dimen>
+    <dimen name="textSize_questions">30sp</dimen>
+    <dimen name="marginTop_question1">40dp</dimen>
+    <dimen name="marginTop_answer1">25dp</dimen>
+    <dimen name="marginBottom_question1">20dp</dimen>
+    <dimen name="marginTop_button">20dp</dimen>
+    <dimen name="marginLeft_answer3">135dp</dimen>
+    <dimen name="marginBottom_button">20dp</dimen>
+    <dimen name="layout_width_button">100dp</dimen>
+
+</resources>

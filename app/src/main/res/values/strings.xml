@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Geography Quiz App</string>
+    <string name="title">Geography Quiz</string>
+    <string name="hintText">Enter your name</string>
+    <string name="question_1">1. On which continent is Mount Everest?</string>
+    <string name="hintTextQ1">Enter the answer</string>
+    <string name="question_2">2. What is the currency of India?</string>
+    <string name="radioButtonQ2_1">Rupee</string>
+    <string name="radioButtonQ2_2">Peso</string>
+    <string name="radioButtonQ2_3">Rupiah</string>
+    <string name="radioButtonQ2_4">Dinar</string>
+    <string name="question_3">3. Which of these countries are NOT in Asia?</string>
+    <string name="checkBoxQ4_1">Paraguay</string>
+    <string name="checkBoxQ4_2">Singapore</string>
+    <string name="checkBoxQ4_3">Cambodia</string>
+    <string name="checkBoxQ4_4">Zambia</string>
+    <string name="question_4">4. Kiev is the capital city of which country?</string>
+    <string name="hintTextQ4">Enter the answer</string>
+    <string name="question_5">5. Which is the largest island in the world?</string>
+    <string name="radioButtonQ5_1">Greenland</string>
+    <string name="radioButtonQ5_2">China</string>
+    <string name="radioButtonQ5_3">Japan</string>
+    <string name="radioButtonQ5_4">Canada</string>
+    <string name="quiz_result_button">QUIZ RESULT</string>
+    <string name="reset_button">QUIZ RESET</string>
+
+</resources>

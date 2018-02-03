@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.android.quizzapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop_title"
+            android:fontFamily="sans-serif"
+            android:text="@string/title"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/textSize"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/editText_name_margin"
+            android:backgroundTint="@color/backgroundTint"
+            android:hint="@string/hintText"
+            android:inputType="textCapWords"
+            android:textColor="@color/textColor_name"
+            android:textColorHint="@color/textColor_hint"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_question1"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/question_1"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/textSize_questions"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop_answer1"
+            android:backgroundTint="@color/backgroundTint"
+            android:hint="@string/hintTextQ1"
+            android:inputType="textCapWords"
+            android:textColor="@color/textColor_quizText"
+            android:textColorHint="@color/textColor_quizText"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_question1"
+            android:layout_marginTop="@dimen/marginTop_question1"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/question_2"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/textSize_questions"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rupee_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ2_1"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/peso_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ2_2"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/rupiah_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ2_3"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/dinar_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ2_4"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_question1"
+            android:layout_marginTop="@dimen/marginTop_question1"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/question_3"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/textSize_questions"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/paraguay_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_answer3"
+            android:buttonTint="@color/textColor_quizText"
+            android:text="@string/checkBoxQ4_1"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/singapore_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_answer3"
+            android:buttonTint="@color/textColor_quizText"
+            android:text="@string/checkBoxQ4_2"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/cambodia_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_answer3"
+            android:buttonTint="@color/textColor_quizText"
+            android:text="@string/checkBoxQ4_3"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/zambia_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_answer3"
+            android:buttonTint="@color/textColor_quizText"
+            android:text="@string/checkBoxQ4_4"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_question1"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/question_4"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/textSize_questions"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/editText_name_margin"
+            android:backgroundTint="@color/textColor_quizText"
+            android:hint="@string/hintTextQ4"
+            android:inputType="textCapWords"
+            android:textColor="@color/textColor_quizText"
+            android:textColorHint="@color/textColor_hint"
+            android:textSize="@dimen/editText_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_question1"
+            android:layout_marginTop="@dimen/marginTop_question1"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/question_5"
+            android:textColor="@color/textColor_quizText"
+            android:textSize="@dimen/textSize_questions"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/greenland_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ5_1"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/china_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ5_2"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/japan_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ5_3"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/canada_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/textColor_quizText"
+                android:text="@string/radioButtonQ5_4"
+                android:textColor="@color/textColor_quizText"
+                android:textSize="@dimen/editText_size"
+                android:textStyle="italic" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="@dimen/layout_width_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/marginTop_button"
+            android:background="@color/colorPrimary"
+            android:onClick="showResult"
+            android:text="@string/quiz_result_button"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/resetScore"
+            android:layout_width="@dimen/layout_width_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/marginBottom_button"
+            android:layout_marginTop="@dimen/marginTop_button"
+            android:background="@color/colorPrimary"
+            android:onClick="resetScore"
+            android:text="@string/reset_button"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+</ScrollView>
