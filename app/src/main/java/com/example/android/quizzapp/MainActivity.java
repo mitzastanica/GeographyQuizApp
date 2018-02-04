@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox answerQ3A;
     CheckBox answerQ3C;
     CheckBox answerQ3D;
+    CheckBox answerQ3B;
     EditText answerQ4;
     RadioButton answerQ5;
 
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         answerQ1 = findViewById(R.id.edit_text_q1);
         answerQ2 = findViewById(R.id.rupee_radio_button);
         answerQ3A = findViewById(R.id.paraguay_checkbox);
+        answerQ3B = findViewById(R.id.singapore_checkbox);
         answerQ3C = findViewById(R.id.cambodia_checkbox);
         answerQ3D = findViewById(R.id.zambia_checkbox);
         answerQ4 = findViewById(R.id.edit_text_q4);
@@ -47,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         if (answerQ2.isChecked()) {
             score += 1;
         }
-        if ((answerQ3A.isChecked() && (answerQ3C.isChecked())) && (answerQ3D.isChecked())) {
+        if ((answerQ3A.isChecked() && (answerQ3C.isChecked())) && (answerQ3D.isChecked() && !answerQ3B.isChecked())) {
             score += 1;
         }
 
